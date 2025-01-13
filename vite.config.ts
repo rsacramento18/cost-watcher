@@ -12,9 +12,18 @@ export default defineConfig({
     vueJsx(),
     vueDevTools(),
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        inlineDynamicImports: true,
+        entryFileNames: 'assets/js/main.js',
+        assetFileNames: 'assets/[ext]/main.[ext]',
+      }
+    }
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-})
+});
