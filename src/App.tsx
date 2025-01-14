@@ -2,10 +2,12 @@ import type { Component } from 'solid-js';
 
 import logo from './logo.svg';
 import styles from './App.module.css';
+import Example from './Example';
 
 const App: Component = () => {
   return (
     <div class={styles.App}>
+      <Example name="one-example"/>
       <header class={styles.header}>
         <img src={logo} class={styles.logo} alt="logo" />
         <p>
