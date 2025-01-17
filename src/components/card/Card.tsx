@@ -1,6 +1,6 @@
 import { For } from 'solid-js';
 import type { Component } from 'solid-js';
-import './Card.css';
+// import './Card.css';
 
 import Value from '../value/Value';
 

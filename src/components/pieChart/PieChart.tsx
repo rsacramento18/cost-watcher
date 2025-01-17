@@ -2,7 +2,7 @@ import { onMount } from 'solid-js'
 import { Chart, Title, Tooltip, Legend, Colors } from 'chart.js'
 import { Pie } from 'solid-chartjs'
 import type { Component } from 'solid-js';
-import './PieChart.css';
+// import './PieChart.css';
 
 
 const PieChart: Component = () => {

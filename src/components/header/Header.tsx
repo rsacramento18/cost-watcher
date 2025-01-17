@@ -1,5 +1,5 @@
 import type { Component, } from 'solid-js';
-import './Header.css';
+// import './Header.css';
 
 const Header: Component = () => {
   return (
