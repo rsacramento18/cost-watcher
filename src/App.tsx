@@ -9,7 +9,7 @@ import 'normalize.css';
 const App: Component = () => {
 
   return (
-    <div class="app">
+    <div class="">
       <Header />
       <div class="">
         <Card />
