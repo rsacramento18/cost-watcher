@@ -27,7 +27,10 @@ const Card: Component = (props) => {
     ]
   } 
   return (
-    <div class="card" id={src.id}>
+    <div 
+      class="my-5 rounded min-w-80 shadow-lg shadow-gray-300" 
+      id={src.id}
+    >
       <div class="card-header">
         <Value 
           label={src.titleExpense.label}

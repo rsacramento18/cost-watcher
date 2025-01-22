@@ -3,7 +3,7 @@ import type { Component, } from 'solid-js';
 
 const Header: Component = () => {
   return (
-    <header class="header">
+    <header class="py-5 px-10 mb-10 bg-sectionBg">
       <h1>Cost Watcher</h1>
     </header>
   )

@@ -6,9 +6,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        app_bg: '#f2f3f7',
-        bg: '#ffffff'
-
+        appBg: '#f2f3f7',
+        sectionBg: '#ffffff'
       }
     },
   },

@@ -9,9 +9,9 @@ import 'normalize.css';
 const App: Component = () => {
 
   return (
-    <div class="">
+    <div>
       <Header />
-      <div class="">
+      <div class="mx-20 p-20 bg-sectionBg flex justify-between align-center flex-wrap">
         <Card />
         <PieChart />
         <Card />
