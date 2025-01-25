@@ -6,7 +6,7 @@ const Value: Component = (props) => {
 
   const [value, setValue] = createSignal(props.value);
   return (
-    <div class="value-component" id={props.id}>
+    <div class="flex justify-between align-center" id={props.id}>
       <span class="label">{props.label}</span>
       <span class="value">{value()}</span>
     </div>
