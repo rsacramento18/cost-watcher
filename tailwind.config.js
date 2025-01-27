@@ -6,8 +6,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        appBg: '#2D3142',
         sectionBg: '#4F5D75',
+        redHl: '#FF686B',
+        greenHl: '#AFD5AA',
         fg: '#FFFFFF',
       },
       boxShadow: {
